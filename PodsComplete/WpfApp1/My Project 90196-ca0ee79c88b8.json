@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "crafty-sound-219617",
+  "private_key_id": "ca0ee79c88b8fcb17b406851b8dcacc516faf57b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCTqfSQM1UskfoV\nW8CQ2GajWEinChAuNeIs7mRhweOAYOkJiMtNa+mVJDihp2eZfTZXgBfuYl9xnY1x\nE315vci7713yQmfg3XP2bsNWLFMiG8VatvxvlGFwy01MoxsoE5Vscg6NijgSu8aF\nNpAXPD64gpFSTwTWi10RetmOp9/IRgnMLFJXgCN3APXdBqXuETavUebmk9pG93m2\nPL1HnbbxauCqjv6eIpZyXmDPgtYZumXg3ieCkgn6rNR8He8fp3826VZgNRvs0Mse\n56qCSU4Yd3IIAYXf3+SsAZsF6rij98lSZnn276HtMGjzQqUxcdri+retv+yn77T3\n9R+j/KtVAgMBAAECggEAGvZ13m3NH+wQyN0d2qT1Ct8INx4Oic2TfMZT5IjJkIvB\niZjlnH+3oWDBiXz+nQeAyHXuiLwENwQAi3T2XKgzkuN4mU+YVbZCIi2j8+R4kpoV\nDYUrr3kd2MF6niOLRiRbTLe/4gbqybrpWzI1GdUJk9ndjLS6iq1cY2B2AMc1BMXE\nHN/w6mqjdD8iOan4d9vUHXA4WU+zU1nbfyxeGi/q9BPaoPjgngvXWxLxAijsgwvO\nBERnGb+eVNBhT2UaXd2vePu/LTdrL7WTgCkua8KBR/MBT/FlxhpsczvlfjI5pqdv\nbmD+wE5RnQmYXq4ZSkPNhSsY+mP/o21CoXmdBIaYQQKBgQDKbrGo7LZBoC2nM9P6\n6tE6rsMeZWLXvxJRJqnjGQ9rt1CoJSb/guOZ244dev5kCyWXChP5UX43fk+NLVsx\ngg+hxS74lOiMxoA+5PUejnE9BKyFz9aoHH+g5kPuE/h4B6cq8WJk8S9ebVQ8dj2o\nS+eg7KoOdJl486xou95+hiEylQKBgQC6vRj81HjnOipcGC8WV9MaFyxa42SmEiV1\nCeu+TP9BKA/XSORKfuCt8OWUOAIAHCBxB+ivC/53H/A83hZzIJAhM6RW2l+bJJDG\nSqE57d3J0cuyrgPMePv/Foynp19SDbMBvaycPRu2pJTTeSHN6oGi883lRGc5CrfK\nPitAgo4lwQKBgEkCtZb8kRuIPw8AFWN5T68/muYaoRS5OE0Gid17i2FJQ5DxnWgo\neBhk5JPjaV8B2jPokZ2pc8FmECEWC78GbsbkzHUhl+I2Mcj9YR79NwBP8D1u4bfO\nV4XbpwJ2N3ZrJDLLzrYjevcurWQFLWXGwqr60LbX/QZvtG4t3Ch8DfslAoGBAI2f\n7NuTqT509rtx/AROB2S6PoGQBD2PdakWJRzm+JBJ+fmk5r85Ct3g3b1T3PCIZHJV\nNTvNNOjT6DfBl/UotSb5K6JTbD8VtFcvMqfkp1jxLDQPlgH1n+kPCQ39+mUYzrJ7\nT/YOwn36xIS+Uc0CFd+oWHeRMVgpsMpJ7DO40GYBAoGAAp640WUYGx//kAoLHwlJ\nwaJVETyVZR/Bhm3jGONaaqiHi6OZsyaLadQba8BdXFuIFjbb1SnYJSMNtqUY69GC\nZv+mhPxpkHA2jcDyYEXqY9lU/UQHdcf4AA8EbC6v2hH7IN/EcaWbSf43uD2/Q2v7\nT0/fJOEQCsrjuc8vxbmQH5s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "justdataconsent@crafty-sound-219617.iam.gserviceaccount.com",
+  "client_id": "105132314949475585450",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/justdataconsent%40crafty-sound-219617.iam.gserviceaccount.com"
+}

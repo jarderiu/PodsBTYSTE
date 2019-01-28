@@ -1,0 +1,137 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="https://github.com/XamlAnimatedGif/XamlAnimatedGif"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Pods Game" Cursor="Arrow" WindowState="Maximized">
+    <Window.Background>
+        <ImageBrush ImageSource="Image/vsBackground_v3.png"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="p1Avatar" Source="Image/SpriteA.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <TextBox x:Name="p1Score" HorizontalAlignment="Left" MinHeight="22" Margin="15,0,0,6" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" MinWidth="100" Foreground="Blue" Background="Transparent" BorderBrush="Transparent" FontFamily="Fonts/PressStart2P-Regular.ttf#Press Start 2P" FontSize="35px" IsReadOnly="True" Height="44" Width="118"/>
+        <Image x:Name="p2Avatar" Grid.Column="1" Grid.Row="0" Source="Image/SpriteB.png" Margin="0.5,0,0,1.5" >
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <TextBox x:Name="p2Score" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" MinHeight="22" Margin="30,0,0,6" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" MinWidth="100" BorderBrush="Transparent" Foreground="Red" Background="Transparent" FontFamily="Fonts/PressStart2P-Regular.ttf#Press Start 2P" FontSize="35px" IsReadOnly="True"/>
+
+        <Grid Grid.Row="1">
+            <Grid.Effect>
+                <DropShadowEffect/>
+            </Grid.Effect>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Border x:Name="p1AvatarABorder" BorderBrush="Black" BorderThickness="5" Grid.Column="0" Grid.Row ="0">
+                <Image x:Name="p1AvatarA" Grid.Column="0" Grid.Row ="0" Source="Image/SpriteA.png" MouseDown="AvatarP1_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p1AvatarBBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="1" Grid.Row ="0">
+                <Image x:Name="p1AvatarB" Grid.Column="1" Grid.Row ="0" Source="Image/SpriteB.png" MouseDown="AvatarP1_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p1AvatarCBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="2" Grid.Row ="0">
+                <Image x:Name="p1AvatarC" Grid.Column="2" Grid.Row ="0" Source="Image/SpriteC.png" MouseDown="AvatarP1_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p1AvatarDBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="3" Grid.Row ="0">
+                <Image x:Name="p1AvatarD" Grid.Column="3" Grid.Row ="0" Source="Image/SpriteD.png" MouseDown="AvatarP1_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p1AvatarEBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="0" Grid.Row ="1">
+                <Image x:Name="p1AvatarE" Grid.Column="0" Grid.Row ="1" Source="Image/SpriteE.png" MouseDown="AvatarP1_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p1AvatarFBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="1" Grid.Row ="1">
+                <Image x:Name="p1AvatarF" Grid.Column="1" Grid.Row ="2" Source="Image/SpriteF.png" MouseDown="AvatarP1_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p1AvatarGBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="2" Grid.Row ="1">
+                <Image x:Name="p1AvatarG" Grid.Column="2" Grid.Row ="3" Source="Image/SpriteG.png" MouseDown="AvatarP1_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p1AvatarHBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="3" Grid.Row ="1">
+                <Image x:Name="p1AvatarH" Grid.Column="3" Grid.Row ="4" Source="Image/SpriteH.png" MouseDown="AvatarP1_MouseDown"/>
+            </Border>
+
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1" Margin="0.5,0.5,0,-0.5" >
+            <Grid.Effect>
+                <DropShadowEffect/>
+            </Grid.Effect>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border x:Name="p2AvatarABorder" BorderBrush="Black" BorderThickness="0" Grid.Column="0" Grid.Row ="0">
+                <Image x:Name="p2AvatarA" Grid.Column="0" Grid.Row ="0" Source="Image/SpriteA.png" MouseDown="AvatarP2_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p2AvatarBBorder" BorderBrush="Black" BorderThickness="5" Grid.Column="1" Grid.Row ="0">
+                <Image x:Name="p2AvatarB" Grid.Column="1" Grid.Row ="0" Source="Image/SpriteB.png" MouseDown="AvatarP2_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p2AvatarCBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="2" Grid.Row ="0">
+                <Image x:Name="p2AvatarC" Grid.Column="2" Grid.Row ="0" Source="Image/SpriteC.png" MouseDown="AvatarP2_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p2AvatarDBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="3" Grid.Row ="0">
+                <Image x:Name="p2AvatarD" Grid.Column="3" Grid.Row ="0" Source="Image/SpriteD.png" MouseDown="AvatarP2_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p2AvatarEBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="0" Grid.Row ="1">
+                <Image x:Name="p2AvatarE" Grid.Column="0" Grid.Row ="1" Source="Image/SpriteE.png" MouseDown="AvatarP2_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p2AvatarFBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="1" Grid.Row ="1">
+                <Image x:Name="p2AvatarF" Grid.Column="1" Grid.Row ="2" Source="Image/SpriteF.png" MouseDown="AvatarP2_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p2AvatarGBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="2" Grid.Row ="1">
+                <Image x:Name="p2AvatarG" Grid.Column="2" Grid.Row ="3" Source="Image/SpriteG.png" MouseDown="AvatarP2_MouseDown"/>
+            </Border>
+
+            <Border x:Name="p2AvatarHBorder" BorderBrush="Black" BorderThickness="0" Grid.Column="3" Grid.Row ="1">
+                <Image x:Name="p2AvatarH" Grid.Column="3" Grid.Row ="4" Source="Image/SpriteH.png" MouseDown="AvatarP2_MouseDown"/>
+            </Border>
+
+        </Grid>
+        <Button x:Name="btnStartGame" Content="Start Game" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="74" Grid.Column="1" Click="btnStartGame_Click" Height="20" FontFamily="Fonts/PressStart2P-Regular.ttf#Press Start 2P"/>
+
+    </Grid>
+
+
+
+
+</Window>
